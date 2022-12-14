@@ -26,7 +26,7 @@ const Product_Suggestion = () => {
             <input
               type="text"
               placeholder="email"
-              className="w-1/3 rounded-md px-3 py-2"
+              className="w-1/3 rounded-md px-3 py-2 text-dark outline-none"
             />
             <label htmlFor="" className="my-4 text-white">
               Saran
@@ -34,8 +34,13 @@ const Product_Suggestion = () => {
             <input
               type="text"
               placeholder="saran"
-              className="w-1/3 rounded-md px-3 py-2"
+              className="w-1/3 rounded-md px-3 py-2 text-dark outline-none"
             />
+            <div className="flex justify-end">
+              <button className="font-semibold bg-white px-10 py-1.5 text-dark mt-8 rounded-md hover:scale-105 transition-all duration-200">
+                Kirim
+              </button>
+            </div>
           </div>
         </form>
       </div>

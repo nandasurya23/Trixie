@@ -19,7 +19,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>
@@ -34,7 +34,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>
@@ -49,7 +49,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>
@@ -64,7 +64,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>
@@ -79,7 +79,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>
@@ -94,7 +94,7 @@ const More_Product = () => {
             <div className="text-lg">
               <h2 className="my-3 font-semibold">Vans Old Skool</h2>
               <p className="my-3">$300</p>
-              <button className="bg-white px-5 text-dark2 my-3 rounded-md w-full text-base font-medium">
+              <button className="bg-white px-5 py-1 text-dark2 my-3 rounded-md w-full text-base font-medium hover:scale-105 transition-all duration-200">
                 More
               </button>
             </div>

@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slider {
-  margin: 0 -15px;
+.slick-slide > div {
+  margin: 0 40px;
 }
-.slick-slide {
-  padding: 10px;
-  text-align: center;
-  margin-right: 42px;
-  margin-left: 42px;
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-dots li button::before {
+  color: #fff !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
 }

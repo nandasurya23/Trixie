@@ -40,7 +40,7 @@ const Best_Seller = () => {
     ],
   };
   return (
-    <section className="bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white py-10 ">
+    <section className="bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white pt-10 pb-20 ">
       <div className="w-11/12 px-3 mx-auto">
         <h1 className="text-4xl font-bold text-center py-5">
           Best Seller Products
@@ -57,9 +57,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -72,9 +74,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -87,9 +91,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -102,9 +108,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -117,9 +125,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -132,9 +142,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -147,9 +159,11 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
 
           <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
@@ -162,9 +176,113 @@ const Best_Seller = () => {
               <h3 className="text-dark font-semibold">Vans Old Skool</h3>
               <p className="text-dark font-normal">$300</p>
             </div>
-            <button className="py-2 px-3 bg-dark2 w-full font-medium text-base rounded-md">
-              More
-            </button>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
+          </div>
+
+          <div className="px-3 py-5 bg-white w-1/6 rounded-md ">
+            <img
+              src="https://ik.imagekit.io/lshkgi0dm/trixie/assets/products.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670942243109"
+              alt=""
+              className="rounded-md object-contain mx-auto"
+            />
+            <div className="text-center mt-3">
+              <h3 className="text-dark font-semibold">Vans Old Skool</h3>
+              <p className="text-dark font-normal">$300</p>
+            </div>
+            <div className="flex justify-center items-center">
+              <button className="py-2 px-3 bg-dark2 w-1/2 font-medium text-base rounded-md">
+                More
+              </button>
+            </div>
           </div>
         </Slider>
       </div>

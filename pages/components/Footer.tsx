@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark2 w-full font-Montserrat text-white">
+    <footer id="footer" className="bg-dark2 w-full font-Montserrat text-white">
       <div className="w-11/12 px-3 mx-auto py-20">
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-col w-full">
@@ -19,19 +20,46 @@ const Footer = () => {
           <div className="flex flex-col w-1/4">
             <h3 className="my-5 text-lg">Menu</h3>
             <ul className="space-y-2">
-              <li>Home</li>
-              <li>About</li>
-              <li>Shop</li>
-              <li>Help</li>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="#about" scroll={false}>
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/shop">Shop</Link>
+              </li>
+              <li>
+                <Link href="#help">Help</Link>
+              </li>
             </ul>
           </div>
           <div className="flex flex-col w-1/4">
-            <h3 className="my-5 text-lg">Find Us On</h3>
+            <h3 className="my-5 text-lg">Temukan Kami</h3>
             <ul className="space-y-2">
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Whatsapp</li>
+              <li>
+                <a
+                  href="https://www.instagram.com/trixiefootwear/"
+                  target="_blank"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/Trixie_Footwear?t=kn3zE7oZIjxV2bABC7Y2vA&s=09"
+                  target="_blank"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me//085896131604" target="_blank">
+                  Whatsapp
+                </a>
+              </li>
             </ul>
           </div>
         </div>

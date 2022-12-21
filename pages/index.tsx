@@ -1,6 +1,6 @@
 import About from "./home/About";
 import Articels from "./home/Articels";
-import Best_Seller from "./home/Best_Seller";
+import Best_Seller from "./product/Best_Seller";
 import HeroSection from "./home/HeroSection";
 import Testimony from "./home/Testimony";
 

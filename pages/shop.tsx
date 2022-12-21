@@ -1,4 +1,4 @@
-import Best_Seller from "./home/Best_Seller";
+import Best_Seller from "./product/Best_Seller";
 import Hero_Section_Shop from "./shop/Hero_Section_Shop";
 import More_Product from "./shop/More_Product";
 import Product_Suggestion from "./shop/Product_Suggestion";
@@ -8,7 +8,7 @@ export default function Shop() {
     <>
       <Hero_Section_Shop />
       <Best_Seller />
-      <More_Product/>
+      <More_Product />
       <Product_Suggestion />
     </>
   );

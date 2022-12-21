@@ -17,13 +17,13 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="mx-5 hover:text-gray2 cursor-pointer transition-all duration-200">
-            <Link href="/catalog">About</Link>
+            <Link href="#about" scroll = {false}>About</Link>
           </li>
           <li className="mx-5 hover:text-gray2 cursor-pointer transition-all duration-200">
             <Link href="/shop">Shop</Link>
           </li>
           <li className="mx-5 hover:text-gray2 cursor-pointer transition-all duration-200">
-            <Link href="/contact">Contact</Link>
+            <Link href="#footer" scroll = {false}>Contact</Link>
           </li>
         </ul>
       </div>

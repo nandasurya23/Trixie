@@ -7,7 +7,12 @@ const Product_Suggestion = () => {
     <section id="help" className="bg-dark2 font-Montserrat text-white">
       <div className="w-11/12 px-3 mx-auto py-20">
         <div className="text-center">
-          <h2 className={clsx("text-2xl font-semibold my-5 w-1/2 mx-auto", "md:text-5xl")}>
+          <h2
+            className={clsx(
+              "text-2xl font-semibold my-5 w-1/2 mx-auto",
+              "md:text-5xl"
+            )}
+          >
             Saran Produk
           </h2>
           <p className="w-1/2 mx-auto mt-14">
@@ -16,7 +21,11 @@ const Product_Suggestion = () => {
             kami, have fun :)
           </p>
         </div>
-        <a href="mailto:aldiariasa81@gmail.com" target="_blank">
+        <a
+          href="mailto:aldiariasa81@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="flex items-center justify-center mt-10 space-x-6 text-xl font-semibold tracking-wider hover:scale-105 duration-200 transition-all">
             <BiEnvelope size={60} />
             <h1>aldiariasa81@gmail.com</h1>

@@ -43,7 +43,7 @@ const Footer = () => {
               <li>
                 <a
                   href="https://www.instagram.com/trixiefootwear/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Instagram
                 </a>
@@ -51,13 +51,13 @@ const Footer = () => {
               <li>
                 <a
                   href="https://twitter.com/Trixie_Footwear?t=kn3zE7oZIjxV2bABC7Y2vA&s=09"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="https://wa.me//085896131604" target="_blank">
+                <a href="https://wa.me//085896131604" target="_blank" rel="noreferrer">
                   Whatsapp
                 </a>
               </li>

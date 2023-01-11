@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import clsx from "clsx";
@@ -24,7 +25,7 @@ const Articels = () => {
                 <button>
                   <a
                     href="https://umkm.kompas.com/read/2022/07/05/080000683/hadirkan-model-baru-sneakers-lokal-ventela-kolaborasi-dengan-chicco-jerikho"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     Baca Selengkapnya
                   </a>
@@ -54,7 +55,7 @@ const Articels = () => {
                   <button>
                     <a
                       href="https://money.kompas.com/read/2021/05/12/171500826/ketika-sneaker-lokal-jadi-identitas-anak-muda-kekinian"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Baca Selengkapnya
                     </a>
@@ -84,7 +85,7 @@ const Articels = () => {
                   <button>
                     <a
                       href="https://lifestyle.kompas.com/read/2020/11/11/202257420/5-sepatu-lokal-keren-ini-bisa-kamu-dapat-di-bawah-rp-500000-apa-aja"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Baca Selengkapnya
                     </a>
@@ -113,7 +114,7 @@ const Articels = () => {
                   <button>
                     <a
                       href="https://lifestyle.kompas.com/read/2020/10/26/130344620/jokowi-unboxing-sneaker-sang-sekerta-lohita-apa-itu"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Baca Selengkapnya
                     </a>
@@ -142,7 +143,7 @@ const Articels = () => {
                   <button>
                     <a
                       href="https://lifestyle.kompas.com/read/2020/10/04/180458320/ini-sepatu-kolaborasi-kaesang-ventela-dan-nevertoolavish"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                     >
                       Baca Selengkapnya
                     </a>

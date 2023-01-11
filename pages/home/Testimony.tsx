@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import clsx from "clsx";
 
 const Testimony = () => {
   return (
     <section className="bg-gradient-to-tr from-dark to-dark2 font-Montserrat text-white">
       <div className="w-11/12 px-3 mx-auto py-20">
-        <h1 className="text-center font-bold text-5xl">
+        <h1 className={clsx("text-center font-bold text-2xl", "text-5xl")}>
           Testimoni Pembeli Kami
         </h1>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 mt-10">

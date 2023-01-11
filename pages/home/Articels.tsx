@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import clsx from "clsx";
 
 const Articels = () => {
   return (
     <section className="bg-dark2 font-Montserrat text-white">
       <div className="w-11/12 px-3 mx-auto py-20">
-        <h1 className="text-5xl font-bold">Tren Sepatu Lokal</h1>
-        <div className="flex flex-row justify-between items-center mt-10">
-          <div className="flex flex-col mr-10 hover:scale-105 duration-200 transition-all">
+        <h1 className={clsx("text-2xl font-bold", "md:text-5xl")}>Tren Sepatu Lokal</h1>
+        <div className={clsx("flex flex-col justify-between items-center mt-10", "md:flex-row")}>
+          <div className={clsx("flex flex-col mr-0 mb-10 hover:scale-105 duration-200 transition-all", "md:mr-10 md:mb-0")}>
             <img
               src="https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Artikel/1.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1671549797425"
               alt=""
@@ -36,7 +37,7 @@ const Articels = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className={clsx("grid grid-cols-1 gap-10", "md:grid-cols-2 md:gap-6")}>
             <div className="flex flex-col hover:scale-105 duration-200 transition-all">
               <img
                 src="https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Artikel/2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671549798606"

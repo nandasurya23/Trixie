@@ -1,19 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
+import clsx from "clsx";
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer id="footer" className="bg-dark2 w-full font-Montserrat text-white">
       <div className="w-11/12 px-3 mx-auto py-20">
-        <div className="flex flex-row items-center justify-between">
+        <div className={clsx("flex flex-col items-start justify-between", "md:flex-row md:items-center")}>
           <div className="flex flex-col w-full">
             <img
               src="https://ik.imagekit.io/lshkgi0dm/trixie/logo/Logo.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1670937740134"
               alt=""
-              className="w-1/4"
+              className={clsx("w-10/12", "md:w-1/4")}
             />
             <div className="w-1/4 bg-gray2 p-[1px] mt-7"></div>
-            <p className="text-xl font-medium mt-5 w-1/6">
+            <p className={clsx("text-lg font-medium mt-5 w-1/6", "md:text-xl")}>
               Kapal, Badung 80351, Bali, Indonesia
             </p>
           </div>

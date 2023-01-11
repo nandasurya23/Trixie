@@ -22,9 +22,17 @@
     url(https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Bg_sepatu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671426254740)
       no-repeat;
   background-size: cover;
-  background-position: 0 -430px;
+  background-position: 0;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and(min-width: 768px) {
+  .bg_shop {
+    width: 50%;
+    height: 20%;
+    background-position: 0 -430px;
+  }
 }

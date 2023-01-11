@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import clsx from "clsx";
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
       className="bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white py-20"
     >
       <div className="w-11/12 px-3 mx-auto">
-        <h1 className="text-center text-5xl font-bold">Tentang Kami</h1>
+        <h1 className={clsx("text-center text-2xl font-bold", "md:text-5xl")}>Tentang Kami</h1>
         <p className="py-10 text-center font-medium text-lg">
           Trixie Footwear merupakan salah satu online shop yang menjual berbagai
           jenis sepatu vintage dan lokal.

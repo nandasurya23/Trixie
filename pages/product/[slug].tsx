@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react-hooks/rules-of-hooks */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -97,7 +99,8 @@ export default function view() {
               <hr />
               <p className="text-3xl">
                 {" "}
-                Rp. {data.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+                Rp.{" "}
+                {data.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
               </p>
               <hr />
               <p className="space-x-8">
@@ -108,7 +111,11 @@ export default function view() {
               <p>{data?.desc}</p>
               <div className={clsx("flex justify-center", "md:justify-end")}>
                 <button className="mt-3 bg-white px-10 py-1.5 text-lg text-dark rounded-md font-semibold hover:scale-105 transition-all duration-200">
-                  <a href="https://wa.me//085896131604" target="_blank">
+                  <a
+                    href="https://wa.me//085896131604"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Pesan Sekarang
                   </a>
                 </button>

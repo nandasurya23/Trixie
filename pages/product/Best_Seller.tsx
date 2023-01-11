@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { product } from "../data/product";
+import { product } from "../api/data/product";
 import Link from "next/link";
 import clsx from "clsx";
 
@@ -46,7 +46,12 @@ const Best_Seller = () => {
   return (
     <section className="bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white pt-10 pb-20 ">
       <div className="w-11/12 px-3 mx-auto">
-        <h1 className={clsx("text-2xl font-bold text-center py-5 mb-7", "md:text-4xl")}>
+        <h1
+          className={clsx(
+            "text-2xl font-bold text-center py-5 mb-7",
+            "md:text-4xl"
+          )}
+        >
           Produk Terlaris Trixie Footwear
         </h1>
         {/* SLIDER */}
@@ -65,7 +70,7 @@ const Best_Seller = () => {
                 <div className="text-center mt-3">
                   <h3 className="text-dark font-semibold">{item.name}</h3>
                   <p className="text-dark font-normal">
-                    Rp.  
+                    Rp.
                     {item.price
                       .toString()
                       .replace(/\B(?=(\d{3})+(?!\d))/g, ".")}

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
-import { product } from "../data/product";
+import { product } from "../api/data/product";
 import clsx from "clsx";
 
 const More_Product = () => {

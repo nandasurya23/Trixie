@@ -110,8 +110,10 @@ export const product = [
     id: 8,
     image:
       "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Patrobas_Cloud_Off_White_High/Cloud_5?ik-sdk-version=javascript-1.4.3&updatedAt=1671418887274",
-      image2: "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Patrobas_Cloud_Off_White_High/3?ik-sdk-version=javascript-1.4.3&updatedAt=1671416141232",
-      image3: "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Patrobas_Cloud_Off_White_High/1?ik-sdk-version=javascript-1.4.3&updatedAt=1671416107634",
+    image2:
+      "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Patrobas_Cloud_Off_White_High/3?ik-sdk-version=javascript-1.4.3&updatedAt=1671416141232",
+    image3:
+      "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Patrobas_Cloud_Off_White_High/1?ik-sdk-version=javascript-1.4.3&updatedAt=1671416107634",
     name: "Patrobas Cloud Off White High",
     slug: "Patrobas Cloud Off White High",
     size: [39, 40, 41, 42, 43, 44, 45],
@@ -123,8 +125,10 @@ export const product = [
     id: 9,
     image:
       "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Nobrand_Hype0talamus/Nobrand?ik-sdk-version=javascript-1.4.3&updatedAt=1671425039515",
-      image2: "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Nobrand_Hype0talamus/Nobrand_4?ik-sdk-version=javascript-1.4.3&updatedAt=1672158872316",
-      image3: "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Nobrand_Hype0talamus/Nobrand_3?ik-sdk-version=javascript-1.4.3&updatedAt=1672125963562",
+    image2:
+      "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Nobrand_Hype0talamus/Nobrand_4?ik-sdk-version=javascript-1.4.3&updatedAt=1672158872316",
+    image3:
+      "https://ik.imagekit.io/js2tl91ey/Artikel_Trixie/Nobrand_Hype0talamus/Nobrand_3?ik-sdk-version=javascript-1.4.3&updatedAt=1672125963562",
     name: "Nobrand Hypetalamus",
     slug: "Nobrand Hypetalamus",
     size: [39, 40, 41, 42, 43, 44, 45],
@@ -132,3 +136,4 @@ export const product = [
     desc: "PASTIKAN DULU SIZE SEBELUM MEMBELI",
   },
 ];
+

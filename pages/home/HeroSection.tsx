@@ -35,7 +35,7 @@ const HeroSection = () => {
               </p>
               <div className={clsx(" flex justify-center w-full mt-10", "md:justify-start")}>
                 <button className="bg-white flex px-5 py-3 justify-start items-center text-dark2 text-lg font-medium rounded-md hover:scale-105 transition-all duration-200">
-                  <a href="https://wa.me//085896131604" target="_blank">
+                  <a href="https://wa.me//085896131604" target="_blank" rel="noreferrer">
                     Pesan Sekarang
                   </a>
                   <div className="ml-1">

@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
 import { product } from "../api/data/product";
-import { useState } from "react";
 import clsx from "clsx";
 
 export default function view() {
@@ -54,7 +53,7 @@ export default function view() {
 
   return (
     <>
-      <section className="bg-dark2 font-Montserrat text-white w-full">
+      <section className={clsx("bg-dark2 font-Montserrat text-white w-full")}>
         <div className={clsx("w-11/12 px-3 mx-auto py-32 ", "md:py-52")}>
           <div
             className={clsx(
@@ -94,23 +93,29 @@ export default function view() {
               </div>
             </div>
 
-            <div className="flex w-full flex-col space-y-4 self-start">
-              <h1 className="text-3xl font-semibold">{data.name}</h1>
+            <div className={clsx("flex w-full flex-col space-y-4 self-start")}>
+              <h1 className={clsx("text-2xl md:text-3xl font-semibold")}>
+                {data.name}
+              </h1>
               <hr />
-              <p className="text-3xl">
+              <p className={clsx("text-2xl md:text-3xl")}>
                 {" "}
                 Rp.{" "}
                 {data.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
               </p>
               <hr />
-              <p className="space-x-8">
+              <p className={clsx("space-x-8 text-lg md:text-xl")}>
                 Ukuran :{" "}
                 {data.size.toString().replace(/\B(?=(\d{2})+(?!\d))/g, ",")}
               </p>
               <hr />
-              <p>{data?.desc}</p>
+              <p className={clsx("text-lg md:text-xl")}>{data.desc}</p>
               <div className={clsx("flex justify-center", "md:justify-end")}>
-                <button className="mt-3 bg-white px-10 py-1.5 text-lg text-dark rounded-md font-semibold hover:scale-105 transition-all duration-200">
+                <button
+                  className={clsx(
+                    "mt-3 bg-white w-full px-10 py-1.5 text-lg text-dark rounded-md font-medium hover:scale-105 transition-all duration-200 md:w-1/2"
+                  )}
+                >
                   <a
                     href="https://wa.me//085896131604"
                     target="_blank"

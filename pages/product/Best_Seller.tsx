@@ -44,8 +44,12 @@ const Best_Seller = () => {
     ],
   };
   return (
-    <section className="bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white pt-10 pb-20 ">
-      <div className="w-11/12 px-3 mx-auto">
+    <section
+      className={clsx(
+        "bg-gradient-to-br from-dark to-dark2 font-Montserrat text-white pt-10 pb-20 "
+      )}
+    >
+      <div className={clsx("w-11/12 px-3 mx-auto")}>
         <h1
           className={clsx(
             "text-2xl font-bold text-center py-5 mb-7",
@@ -60,16 +64,20 @@ const Best_Seller = () => {
             return (
               <div
                 key={item.id}
-                className="px-3 py-5 bg-white w-1/6 rounded-md hover:scale-95 duration-200 transition-all"
+                className={clsx(
+                  "px-3 py-5 bg-white w-1/6 rounded-md hover:scale-95 duration-200 transition-all"
+                )}
               >
                 <img
                   src={item.image}
                   alt=""
-                  className="rounded-md object-contain mx-auto"
+                  className={clsx("rounded-md object-contain mx-auto")}
                 />
-                <div className="text-center mt-3">
-                  <h3 className="text-dark font-semibold">{item.name}</h3>
-                  <p className="text-dark font-normal">
+                <div className={clsx("text-center mt-3")}>
+                  <h3 className={clsx("text-dark font-semibold")}>
+                    {item.name}
+                  </h3>
+                  <p className={clsx("text-dark font-normal")}>
                     Rp.
                     {item.price
                       .toString()
@@ -77,8 +85,12 @@ const Best_Seller = () => {
                   </p>
                 </div>
                 <Link href={`product/${item.name}`}>
-                  <div className="flex justify-center items-center">
-                    <button className="py-2 w-36 bg-dark2 font-medium text-base rounded-md text-center">
+                  <div className={clsx("flex justify-center items-center")}>
+                    <button
+                      className={clsx(
+                        "py-2 w-36 bg-dark2 font-medium text-base rounded-md text-center"
+                      )}
+                    >
                       Selengkapnya
                     </button>
                   </div>

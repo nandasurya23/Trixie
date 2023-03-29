@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Trixie Footwear</title>
         <link
           rel="shortcut icon"
-          href="https://ik.imagekit.io/lshkgi0dm/trixie/logo/Artboard_1_1.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1670941330347"
+          href="https://ik.imagekit.io/lshkgi0dm/trixie_logo_1.png?updatedAt=1680077317987"
           type="image/x-icon"
         />
       </Head>

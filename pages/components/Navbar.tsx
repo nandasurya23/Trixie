@@ -24,10 +24,11 @@ const Navbar = () => {
           )}
         >
           <img
-            src="https://ik.imagekit.io/lshkgi0dm/trixie/logo/Logo.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1670937740134"
+            src="https://ik.imagekit.io/lshkgi0dm/trixie_logo_1.png?updatedAt=1680077317987"
             alt=""
-            className={clsx("w-52", "md:w-56")}
+            className={clsx("w-8", "md:w-10")}
           />
+          <h1 className="hidden md:block md:mx-1">Trixie Footwear</h1>
         </div>
         <FiMenu
           className={clsx("block h-6 w-6 cursor-pointer", "md:hidden")}

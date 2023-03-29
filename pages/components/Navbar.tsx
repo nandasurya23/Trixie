@@ -24,7 +24,7 @@ const Navbar = () => {
           )}
         >
           <img
-            src="https://ik.imagekit.io/lshkgi0dm/trixie_logo_1.svg?updatedAt=1680078171106"
+            src="https://ik.imagekit.io/lshkgi0dm/trixie_logo_putih.svg?updatedAt=1680079612664"
             alt=""
             className={clsx("w-8", "md:w-10")}
           />

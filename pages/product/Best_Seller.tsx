@@ -85,7 +85,9 @@ const Best_Seller = () => {
                   </p>
                 </div>
                 <Link href={`product/${item.name}`}>
-                  <div className={clsx("flex justify-center items-center")}>
+                  <div
+                    className={clsx("flex justify-center items-center mt-3")}
+                  >
                     <button
                       className={clsx(
                         "py-2 w-36 bg-dark2 font-medium text-base rounded-md text-center"

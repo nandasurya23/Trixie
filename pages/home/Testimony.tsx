@@ -11,7 +11,7 @@ const Testimony = () => {
     >
       <div className={clsx("w-11/12 px-3 mx-auto py-20")}>
         <h1 className={clsx("text-center font-bold text-2xl", "md:text-5xl")}>
-          Testimoni Pembeli Kami
+          TESTIMONI
         </h1>
         <div className={clsx("grid grid-cols-1 gap-5 md:grid-cols-3 mt-10")}>
           <div

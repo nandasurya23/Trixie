@@ -16,17 +16,18 @@ const Footer = () => {
           )}
         >
           <div className={clsx("flex flex-col w-full")}>
-            <div className={clsx("flex items-center")}>
+            <div className={clsx("flex flex-col items-center",'md:flex-row')}>
               <img
                 src="https://ik.imagekit.io/lshkgi0dm/trixie_logo_putih.svg?updatedAt=1680079612664"
                 alt=""
                 className={clsx("w-16", "md:w-24")}
               />
-              <h1 className={clsx("hidden md:block text-3xl mx-1.5 font-bold")}>
-                Trixie Footwear
-              </h1>
-            </div>
-
+              <img
+                src="https://ik.imagekit.io/lshkgi0dm/logo_wariorr_1-removebg-preview_1.svg?updatedAt=1681029263827"
+                alt=""
+                className="w-20"
+              />
+            </div>{" "}
             <div className={clsx("w-1/4 bg-gray2 p-[1px] mt-7")}></div>
             <p className={clsx("text-lg font-medium mt-5 w-1/6", "md:text-xl")}>
               Kapal, Badung 80351, Bali, Indonesia

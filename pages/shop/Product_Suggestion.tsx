@@ -1,6 +1,7 @@
 import React from "react";
 import { BiEnvelope } from "react-icons/bi";
 import clsx from "clsx";
+import Link from "next/link";
 
 const Product_Suggestion = () => {
   return (
@@ -28,7 +29,9 @@ const Product_Suggestion = () => {
         >
           <div className="flex items-center justify-center mt-10 space-x-6 text-xl font-semibold tracking-wider hover:scale-105 duration-200 transition-all">
             <BiEnvelope size={60} />
-            <h1>aldiariasa81@gmail.com</h1>
+            <Link href={"mailto:footwear.trixie.gmail.com"}>
+              <h1>footwear.trixie.gmail.com</h1>
+            </Link>
           </div>
         </a>
       </div>

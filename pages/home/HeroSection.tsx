@@ -45,7 +45,7 @@ const HeroSection = () => {
                   )}
                 >
                   <a
-                    href="https://wa.me//085896131604"
+                    href="https://wa.me/+6285896131604?text=HAI%20KAK%20SAYA%20INGIN%20PESAN%20SEPATU%20KAK%20.%20APAKAH%20BARANGNYA%20MASIH%20TERSEDIA%20KAK%20%3F%3F"
                     target="_blank"
                     rel="noreferrer"
                   >
